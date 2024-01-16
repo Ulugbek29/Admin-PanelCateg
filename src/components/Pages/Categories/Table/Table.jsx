@@ -111,7 +111,7 @@ const columns = [
         </Table>
       </TableContainer>
                       
-     {openModal && <ErrorModal openErrorPopUp={openModal} closeErrorModal={closeErrorModal} deleteData={deleteData}/> }
+     {openModal.status && <ErrorModal openErrorPopUp={openModal} closeErrorModal={closeErrorModal} deleteData={deleteData}/> }
     </div>
     
   </>
