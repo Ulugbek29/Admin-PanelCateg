@@ -6,7 +6,7 @@ import DeleteIcon from "@mui/icons-material/Delete";
 
 export default function ButtonsPopOver({
   id,
-  onEditClick,
+  navigateToEditForm,
   setOpenModal,
 }) {
   const [anchorEl, setAnchorEl] = useState(null);
@@ -51,7 +51,7 @@ export default function ButtonsPopOver({
           color="success"
           onClick={(e) => {
             handleClose();
-            onEditClick(e, id);
+            navigateToEditForm(id);
           }}
         >
           <EditIcon className="IconButton" />

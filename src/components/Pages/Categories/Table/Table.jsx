@@ -23,6 +23,11 @@ const closeErrorModal =() => {
     setOpenModal((prev) => ({...prev, status: false}))
 }
 
+const navigateToEditForm = (id) => {
+  navigate(`/categories/${id}`)
+}
+
+
 console.log(openModal)
 const columns = [
     { key: "id", title: "№" },
@@ -34,20 +39,22 @@ const columns = [
         return fio;
       },
     },
-    { key: "phone", title: "Phone Number" },
+    { key: "age", title: "Age" },
+    { key: "username", title: "Username" },
     { key: "region", title: "Region", 
     render: (itemObj=> {
-      const address = `${itemObj.address.address}`
+      const address = `${itemObj.city}`
       return address
     })
       },
+      { key: "email", title: "Email" },
     {
       key: "actions",
       title: "Actions",
       render: (itemObj) => {
         return (
           <div className="flex flex-col gap-2">
-            <ButtonsPopOver  id={itemObj.id} setOpenModal={setOpenModal}/>
+            <ButtonsPopOver  id={itemObj.id} setOpenModal={setOpenModal} navigateToEditForm={navigateToEditForm}/>
           </div>
         );
       },
@@ -69,6 +76,9 @@ const columns = [
     categoriesServices.delete(id)
     .then(res => gelAllData())
   }
+
+
+
 
   console.log(tableData);
 

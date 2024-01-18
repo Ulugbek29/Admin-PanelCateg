@@ -1,83 +1,17 @@
 {
   "categories": [
     {
-      "id": 4,
-      "firstName": "Miles",
-      "lastName": "Cummerata",
-      "maidenName": "Maggio",
-      "age": 49,
-      "gender": "male",
-      "email": "yraigatt3@nature.com",
-      "phone": "+86 461 145 4186",
-      "username": "yraigatt3",
-      "password": "sRQxjPfdS",
-      "birthDate": "1969-01-16",
-      "image": "https://robohash.org/Miles.png?set=set4",
-      "bloodGroup": "B+",
-      "height": 157,
-      "weight": 95.9,
-      "eyeColor": "Gray",
-      "hair": {
-        "color": "Blond",
-        "type": "Very curly"
-      },
-      "domain": "homestead.com",
-      "ip": "243.20.78.113",
-      "address": {
-        "address": "150 Carter Street",
-        "city": "Manchester",
-        "coordinates": {
-          "lat": 41.76556000000001,
-          "lng": -72.473091
-        },
-        "postalCode": "06040",
-        "state": "CT"
-      },
-      "macAddress": "03:45:58:59:5A:7B",
-      "university": "Shenyang Pharmaceutical University",
-      "bank": {
-        "cardExpire": "07/24",
-        "cardNumber": "3580047879369323",
-        "cardType": "jcb",
-        "currency": "Yuan Renminbi",
-        "iban": "KZ43 658B M6VS TZOU OXSO"
-      },
-      "company": {
-        "address": {
-          "address": "210 Green Road",
-          "city": "Manchester",
-          "coordinates": {
-            "lat": 41.7909099,
-            "lng": -72.51195129999999
-          },
-          "postalCode": "06042",
-          "state": "CT"
-        },
-        "department": "Business Development",
-        "name": "Wolff and Sons",
-        "title": "Paralegal"
-      },
-      "ein": "71-3644334",
-      "ssn": "487-28-6642",
-      "userAgent": "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.17 Safari/537.11",
-      "crypto": {
-        "coin": "Bitcoin",
-        "wallet": "0xb9fc4b4b855bc44eb30d5e36fd18f491f44a15b7",
-        "network": "Ethereum (ERC20)"
-      }
-    },
-    {
       "id": 5,
-      "firstName": "Mavis",
-      "lastName": "Schultz",
-      "maidenName": "Yundt",
-      "age": 38,
+      "firstName": "Ulugbek",
+      "lastName": "Orit",
+      "maidenName": "Fert",
+      "age": "19",
       "gender": "male",
-      "email": "kmeus4@upenn.edu",
+      "email": "Ortigalieyvulugbek@upenn.edu",
       "phone": "+372 285 771 1911",
-      "username": "kmeus4",
+      "username": "Atom",
       "password": "aUTdmmmbH",
-      "birthDate": "1968-11-03",
+      "birthDate": "2024-01-17T19:00:00.000Z",
       "image": "https://robohash.org/Mavis.png?set=set4",
       "bloodGroup": "O+",
       "height": 188,
@@ -130,7 +64,9 @@
         "coin": "Bitcoin",
         "wallet": "0xb9fc2fe63b2a6c003f1c324c3bfa53259162181a",
         "network": "Ethereum (ERC20)"
-      }
+      },
+      "jobTitle": "data_scientist",
+      "city": "tashkent"
     },
     {
       "id": 6,

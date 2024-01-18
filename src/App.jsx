@@ -10,7 +10,8 @@ export default function App() {
   <Routes>
     <Route path='/' element={<MainLayout />}>
         <Route index path='/categories' element={<Table />} />
-        <Route path='/categories/:create' element={<TableForm />} />
+        <Route path='/categories/create' element={<TableForm />} />
+        <Route path='/categories/:id' element={<TableForm />} />
     </Route>
     <Route path='*'  element={<div>404</div>}/>
   </Routes>

@@ -22,7 +22,7 @@ export default function index({
         <>
             <TextField 
                 size='small'
-                label={name}
+                // label={value === "" && name}
                 name={name}
                 value={value}
                 onChange={(e)=> onChange(e.target.value)}
